@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://aswinmohan.me/blog/about/</loc>
+    <lastmod>2019-12-07T10:28:25+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aswinmohan.me/blog/</loc>
+    <lastmod>2019-12-07T10:28:25+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aswinmohan.me/blog/posts/on-writing-on-internet/</loc>
+    <lastmod>2019-12-07T10:26:18+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aswinmohan.me/blog/posts/</loc>
+    <lastmod>2019-12-07T10:26:18+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aswinmohan.me/blog/tags/</loc>
+    <lastmod>2019-12-07T10:26:18+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aswinmohan.me/blog/tags/writing/</loc>
+    <lastmod>2019-12-07T10:26:18+05:30</lastmod>
+  </url>
+  
+</urlset>
