@@ -17,7 +17,7 @@ disqusShortname = "ink-demo"
 	subtitle = "rants of someone interested in code, design and life."
 
 	# Optional 64x64 avatar image.
-	avatar = "https://image.freepik.com/free-vector/young-man-head-with-beard-avatar-character_24877-36786.jpg"
+	avatar = "https://avatars.io/twitter/aswinmohanme"
 
 	# Content types to disable Disqus on.
 	disableDisqusTypes = ["page"]
@@ -54,6 +54,11 @@ weight = 4
 name = "Github"
 icon = "github"
 url = "https://github.com/aswinmohanme"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/aswinmohanme"
 
 [[params.social]]
 name = "RSS"
