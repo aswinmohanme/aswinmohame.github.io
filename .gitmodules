@@ -1,3 +1,7 @@
 [submodule "themes/hugo-ink"]
 	path = themes/hugo-ink
 	url = git@github.com:knadh/hugo-ink.git
+[submodule "public"]
+	path = public
+	url = git@github.com:aswinmohanme/aswinmohanme.github.io.git
+	branch = master
