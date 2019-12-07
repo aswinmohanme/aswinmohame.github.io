@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = ""
 languageCode = "en-us"
 title = "aswinmohanme"
 theme = "hugo-ink"
@@ -12,6 +12,8 @@ pygmentscodefencesguesssyntax = true
 
 googleAnalytics = "UA-123-45"
 disqusShortname = "ink-demo"
+
+publishDir = "docs"
 
 [params]
 	subtitle = "rants of someone who loves to code but too lazy to actually do it."
