@@ -5,3 +5,4 @@ draft: false
 tags: [writing]
 ---
 
+It's been a long time since I have written some long form content.
