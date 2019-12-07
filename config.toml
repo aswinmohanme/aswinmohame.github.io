@@ -1,4 +1,4 @@
-baseURL = "https://aswinmohan.me/blog/"
+baseURL = "https://aswinmohan.me"
 languageCode = "en-us"
 title = "aswinmohanme"
 theme = "hugo-ink"
