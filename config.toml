@@ -2,7 +2,7 @@ baseURL = "https://aswinmohan.me/"
 languageCode = "en-us"
 title = "aswinmohanme"
 theme = "hugo-ink"
-paginate = 5
+paginate = 8
 
 copyright = "© Copyright Aswin Mohan"
 
