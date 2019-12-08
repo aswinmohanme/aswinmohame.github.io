@@ -26,3 +26,5 @@ Yes, It's like a breath of fresh air once you get used to it and trust me you'll
 How am I supposed to know :) ? We have had color schemes for so long and it might seem stupid to turn it off, but how would you know if you haven't tried it. I urge you to try this for one week and see if you like it or not. Don't turn back in one day if you're doing it commit for a week. 
 
 This is one of the reasons I love computing so much, there are like a million ways of doing something including the way we write code. So give `:syntax off` a try and see how that goes.
+
+[Discuss on HN](https://news.ycombinator.com/item?id=21734436)
