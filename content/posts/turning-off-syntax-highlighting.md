@@ -1,5 +1,6 @@
 ---
 title: "Turning Off Syntax Highlighting"
+description: "Experimenting with turning off syntax hightlighting on code."
 date: 2019-12-08T09:32:32+05:30
 tags: [code, workflow]
 ---
