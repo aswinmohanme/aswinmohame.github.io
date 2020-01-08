@@ -1,8 +1,7 @@
 ---
 title: "The Simplest Productivity System is the Best"
 date: 2020-01-07
-tags: []
-draft: true
+tags: [productivity, life]
 ---
 
 Most of us are productivity gurus on the Internet nowadays. Anyone who works with a computer now has some general ideas of how to achieve productivity and most have those ideas to a fault.  There are a million + one articles floating around claiming to have found the secret for eternal productivity. We watch endless motivational videos and informational videos outlining a 99 step process to plan your whole day, another 98 steps to plan your whole week for optimum productivity. We all strive to be everything and everyone at the same time.
