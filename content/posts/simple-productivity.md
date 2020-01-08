@@ -27,3 +27,5 @@ I'm not advocating for the suffocating hard work that is making rounds on social
 Start with the simplest system and when you outgrow it, grow the system with you. Work hard until your brain hurts, you'll enjoy that feeling trust me, and get some work done along the way too. 
 
 May this year be the year we do the work instead of copying productivity system from random people on the internet.
+
+[Discuss on HN](https://news.ycombinator.com/item?id=21987916)
