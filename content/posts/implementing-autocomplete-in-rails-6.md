@@ -12,4 +12,31 @@ I ran into the same situation. I had a `Contact` table that `has_one: Panchayat`
 Choices is a native JS libary with no dependencies that are designed for handling select boxes. Read more at https://joshuajohnson.co.uk/Choices/
 
 ## Setting up 
-Install Choices with `yarn add choices.js` in the project repo.
+* Install Choices with `yarn add choices.js` in the project repo. The new webpack pipeline of Rails would handle all the bundling of the js code.
+
+* In your `application.js` file add the below code. This would replace all the occurence of the class `#dropdown-choice-select` with the choice dropdown. Create a new `css/application.css` file in the javascript folder.
+
+```
+// Import css from js for webpack to process it correctly
+import '../css/application.css'
+
+// Add Choices Dropdown
+const Choices = require('choices.js')
+document.addEventListener("turbolinks:load", function() {
+    var dropDownSelects = new Choices('#dropdown-choice-select')
+})
+```
+* In your `application.css` file add the below line 
+```
+@import "choices.js/public/assets/styles/choices.css";
+```
+
+## Using it
+To use it in a form to prefill an association all you have to do is 
+```
+<%= f.association :assoc_name, collection: Assoc.all(), input_html: {id: 'dropdown-choice-select'} %>
+```
+
+Choice would do it's magic and convert it into an awesome autocomplete select box.
+
+For reference https://github.com/coronasafe/coronacell/
