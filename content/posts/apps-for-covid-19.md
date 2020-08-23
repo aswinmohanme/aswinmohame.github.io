@@ -5,4 +5,4 @@ draft: true
 tags: [covid-19, code, people]
 ---
 
-There is a widespread notion particularaty 
+There is a widespread notion particularly in the developer community that we can solve any problem if we throw code at it. That is what had happened in the Corona Virus outbreak.
