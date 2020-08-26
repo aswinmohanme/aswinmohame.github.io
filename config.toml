@@ -17,7 +17,7 @@ disqusShortname = "ink-demo"
 	subtitle = "rants of someone interested in code, design and life."
 
 	# Optional 64x64 avatar image.
-	avatar = "https://lh3.google.com/u/0/d/1XRPoG3Rn8bUEjGeKAcCvJiCvwRdjgrBj=w1920-h1001-iv2"
+	avatar = "https://raw.githubusercontent.com/aswinmohanme/hugoBlog/master/static/images/avatar.png"
 
 	# Content types to disable Disqus on.
 	disableDisqusTypes = ["page"]
