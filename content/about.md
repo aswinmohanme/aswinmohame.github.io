@@ -1,7 +1,6 @@
 ---
 title: "About"
 date: 2020-6-25T10:28:25+05:30
-draft: false
 ---
 
 I'm Aswin Mohan, "jobless" Computer Science graduate from College of Engineering Chengannur in the year of the pandemic. I love to code and have been doing that since 2013, also loves designing because who hates beautiful things. I focus primarily on Mobile Experiences because the Web is too bloated for my taste.
