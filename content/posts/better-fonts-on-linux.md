@@ -8,6 +8,15 @@ Either you love gorgeous typography or just don't care. If you are the former re
 
 I switched to a hackintosh for a while and fell in love with how beautiful the typography was. After returning to Linux and some fiddiling around I came across a not so ugly setup that looked close enough to macOS. So if you want to make your Linux Distro a tad bit typographically better, follow along.
 
+### Results
+This is how the fonts look on the default installation of Manjaro Linux.
+{{<figure src="/images/before_macosfont.png" title="Search before font change">}}
+{{<figure src="/images/wikipedia_beforefonts.png" title="Wikipedia before font change">}}
+
+This is how they would look after we are done.
+{{<figure src="/images/after_macos.png" title="Search after font change">}}
+{{<figure src="/images/wikipedia_afterfonts.png" title="Wikipedia after font change">}}
+
 ### Some Pointers
 Rather than copy pasting everything on here, let's try to understand why the fonts on macOS looks better than the ones we have on Linux.
 
@@ -186,5 +195,8 @@ If you are using chrome, you can do something more too.
 - Set Serif to `Libertinus Serif`
 - Set Sans-serif to `TeX Gyre Heros`
 - Set Fixed-width to `Monospace`
+
+### Interface Text
+For Desktop Environments like Gnome and KDE, you could use Tex-Gyre-Heros for the overall Helvetica look. I use Gnome 3.36 and use `TeX Gyre Heros Regular 10` as my interface text.
 
 That's all set, and keep in mind this guide will be improved.
