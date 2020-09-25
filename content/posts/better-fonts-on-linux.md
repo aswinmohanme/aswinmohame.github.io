@@ -1,21 +1,44 @@
 ---
-title: "Better Fonts on Manjaro/Arch Linux"
+title: "macOS like Fonts on Manjaro/Arch Linux"
 date: 2020-09-11T22:15:59+05:30
 tags: [typography, macOS]
-draft: true
 ---
 
-Fonts and Typography were never the strong suit of Linux. After some fiddiling around I came across a not so ugly setup that works for me. So if you want to make your Linux Distro a tad bit better to look at follow along.
+Either you love gorgeous typography or just don't care. If you are the former read ahead on how to make the font rendering on your Linux look just as awesome as that on macOS, else read on to find out what beauty you have been missing.
+
+I switched to a hackintosh for a while and fell in love with how beautiful the typography was. After returning to Linux and some fiddiling around I came across a not so ugly setup that looked close enough to macOS. So if you want to make your Linux Distro a tad bit typographically better, follow along.
+
+### Some Pointers
+Rather than copy pasting everything on here, let's try to understand why the fonts on macOS looks better than the ones we have on Linux.
+
+Fonts belong to certain types.
+* `sans-serif` : Well the sans fonts on your computer. The regular plain fonts.
+* `serif` : The fonts that look like they came out of a 14th century Bible. You know with the curves and they look like showoffs.
+* `monospace` : The typical code font. The ones where every character is the same width.
+
+The reason fonts look way better on macOS is because Steve Jobs loved typography, and he went the extra mile and licensed some great typefaces for each font type, and recently Apple put in the extra effort to make their custom fonts even better. Well fret not Linux has some free fonts that are metric compatible(means they look awfully similar), and better that we can substitute for fonts.
 
 ### Installation
+Step one is installing the fonts that look similar or better than the ones on macOS.
 All the fonts that are used here can be found on the Arch Repositories, and on Google Fonts. You are free to replace everything with the ones you find great.
 
-- tex-gyre-fonts, free alternative to Helvetica and Arial and looks really really similar
-- DM Mono from Google Fonts, for monospace fonts that look great
-- noto-fonts-emoji, get some colorful emojis
+- `sans-serif` : tex-gyre-fonts, free alternative to Helvetica and Arial and looks really really similar
+- `serif` : Libertinus Serif, suprisingly looks really great
+- `monospace` : DM Mono from Google Fonts, for monospace fonts that look great
+- `emoji` : noto-fonts-emoji, get some colorful emojis
+
+If you are using Manjaro or Arch here is the command to get all fonts in one go.
+```
+yay -S tex-gyre-fonts otf-libertinus noto-fonts-emoji
+```
 
 ### Font Setup
-Everything about fonts can be configured from a single file located at `/etc/fonts/local.conf` if the file doesn't exist create it. You do require `sudo` for it. After creating that file just paste all this.
+Everything about fonts can be configured from a single file located at `/etc/fonts/local.conf` if the file doesn't exist create it. You do require `sudo` for it.
+```
+sudo nvim /et/fonts/local.conf
+```
+
+After you are editing the file copy paste everything here.
 
 ```
 <?xml version='1.0'?>
@@ -72,6 +95,7 @@ Everything about fonts can be configured from a single file located at `/etc/fon
 <!-- Default serif fonts -->
  <match target="pattern">
    <test qual="any" name="family"><string>serif</string></test>
+   <edit name="family" mode="prepend" binding="same"><string>Libertinus Serif</string>  </edit>
    <edit name="family" mode="prepend" binding="same"><string>Noto Serif</string>  </edit>
    <edit name="family" mode="prepend" binding="same"><string>Noto Color Emoji</string>  </edit>
    <edit name="family" mode="append" binding="same"><string>IPAPMincho</string>  </edit>
@@ -148,3 +172,19 @@ Everything about fonts can be configured from a single file located at `/etc/fon
 
 </fontconfig>
 ```
+
+What this file does that is it creates aliases for the common fonts used on the web and uses the metric compatible fonts that we have. That way we have way better looking fonts.
+
+After you have done all this, restart your computer to see the changes.
+
+### Chrome
+If you are using chrome, you can do something more too. 
+
+- Goto Settings
+- Select Customize Fonts under Appearences
+- Set Standard to `Libertinus Serif`
+- Set Serif to `Libertinus Serif`
+- Set Sans-serif to `TeX Gyre Heros`
+- Set Fixed-width to `Monospace`
+
+That's all set, and keep in mind this guide will be improved.
