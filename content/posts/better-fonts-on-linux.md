@@ -1,5 +1,5 @@
 ---
-title: "macOS like Fonts on Manjaro/Arch Linux"
+title: "MacOS like Fonts on Manjaro/Arch Linux"
 date: 2020-09-11T22:15:59+05:30
 tags: [typography, macOS]
 ---
