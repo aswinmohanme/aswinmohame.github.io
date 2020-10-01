@@ -12,9 +12,8 @@ If you're looking to know more about me, here is my [resume](https://drive.googl
 
 my best work
 
-- [LessPhone](https://lessphone.app), A minimal distraction free Android Launcher to limit your phone use.
+- [LessPhone](https://play.google.com/store/apps/details?id=me.aswinmohan.nophone&hl=en_US), A minimal distraction free Android Launcher to limit your phone use.
 - [CoronaRM](https://github.com/coronasafe/coronaRM) - A CRM for managing contacts in quarantine and observation.
 - [Corona Cell](https://github.com/coronasafe/coronacell) - A system to manage Call Center and provide requirements to respective local institutions.
-- [Carbon Zero](https://carbonzero.today), A Carbon Footprint calculator and reduction guide, currently in beta.
 - [Kerala Rescue Flood Map](https://github.com/aswinmohanme/kerala-flood-map), a react based map frontend for KeralaRescue during the floods of 2018 to plot the rescue requests.
 
