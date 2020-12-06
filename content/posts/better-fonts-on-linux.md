@@ -44,7 +44,7 @@ yay -S tex-gyre-fonts otf-libertinus noto-fonts-emoji
 ### Font Setup
 Everything about fonts can be configured from a single file located at `/etc/fonts/local.conf` if the file doesn't exist create it. You do require `sudo` for it.
 ```
-sudo nvim /et/fonts/local.conf
+sudo nvim /etc/fonts/local.conf
 ```
 
 After you are editing the file copy paste everything here.
