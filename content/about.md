@@ -3,7 +3,7 @@ title: "About"
 date: 2020-6-25T10:28:25+05:30
 ---
 
-I'm Aswin Mohan, "jobless" Computer Science graduate from College of Engineering Chengannur in the year of the pandemic. I love to code and have been doing that since 2013, also loves designing because who hates beautiful things. I focus primarily on Mobile Experiences because the Web is too bloated for my taste.
+I'm Aswin Mohan, Computer Science graduate from College of Engineering Chengannur in the year of the pandemic, currently working at [Buy Me a Coffee](https://www.buymeacoffee.com). I love to code and have been doing that since 2013, also loves designing because who hates beautiful things. I focus primarily on Mobile Experiences because the Web is too bloated for my taste.
 
 I put most of my code here on [github.com/aswinmohanme](https://github.com/aswinmohanme), and some designs on [behance](https://behance.net/aswinmmohanme).
 If you're looking to know more about me, here is my [resume](https://drive.google.com/open?id=1Q4k0yis-Jx-i8KCF7d6iAtJZoaG2RTw-), my contact details are inside.
