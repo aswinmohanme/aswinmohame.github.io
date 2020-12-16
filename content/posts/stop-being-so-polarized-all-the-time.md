@@ -1,5 +1,5 @@
 ---
-title: "Stop Being so Polarized All the Time"
+title: "Stop Being So Polarized All the Time"
 date: 2020-12-14
 tags: [society, social-media, politics, religion]
 ---
