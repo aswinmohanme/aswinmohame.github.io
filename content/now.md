@@ -18,3 +18,8 @@ Learning is almost always fun outside school. When there isn't anyone looking ov
 
 * **Skill : Learn to solve the Rubiks Cube blind** - I have always been into cubing, but learning to solve it blind is like the ultimate challenge in memorization, and would make a cool party trick.
 * **Code: TDD Phoenix** - I have always found the idea of TDD fascinating. I'm currently learning TDD with Elixir Phoenix from the awesome free resource at [TDD Phoenix](https://www.tddphoenix.com/)
+
+## Reading
+For the love of Reading.
+
+* **Leonardo Da Vinci, The Biography** by Walter Isaacson - It would be nice to figure out how the greatest inventor of Da Vinci figured out the stuff he did.
