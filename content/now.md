@@ -7,13 +7,9 @@ A Now page is someplace where you list what you are doing with your life right n
 
 ## Work
 
-I'm working at [Buy Me a Coffee](https://www.buymeacoffee.com/) in the Mobile Team.
+[IndiePaper](https://indiepaper.me/) - The Future of Publishing.
 
-- Currently working on rewriting the entire app from scratch in React Native, so expect some great improvements coming along the way.
-
-## Projects
-
-[IndiePaper](https://indiepaper.me/) - The better way for Authors to make self-published books.
+- Currently building IndiePaper as a IndieHacker.
 
 ## Learning
 
