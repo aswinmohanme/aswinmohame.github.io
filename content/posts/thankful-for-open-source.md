@@ -2,6 +2,7 @@
 title: "Thankful for Open Source"
 date: 2021-11-26T09:53:27+05:30
 tags: [opensource]
+draft: true
 ---
 
 # Outline
