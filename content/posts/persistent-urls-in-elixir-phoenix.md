@@ -2,7 +2,6 @@
 title: "Persistent URL Slugs in Elixir Phoenix"
 date: 2021-12-18T20:05:50+05:30
 tags: [elixir, phoenix, web]
-draft: true
 ---
 
 When building out a platform it's a great idea to let your primary outside world resource be reachable via slugs in the URL. Take the case of [IndiePaper](https://indiepaper.me), the main resource is books, rather than letting Authors share a link with the default id https://indiepaper.me/books/06c9fa8f-19b3-4fa1-bcb7-24a2ee2e42f7, it's best to have them share a URL with the Title in it https://indiepaper.me/books/indiepaper-building-the-future-of-publishing. This is better for SEO and readabilty.
