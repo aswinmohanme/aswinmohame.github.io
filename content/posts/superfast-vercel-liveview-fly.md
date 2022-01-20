@@ -84,6 +84,7 @@ let liveSocket = new LiveSocket(socketHost, Socket, {
 Remember to put the dot. It makes sure the cookies with your session information is shared.
 
 * **Check Origin** - In `runtime.exs` file be sure to add both your domains so your requests are not rejected.
+
 ```
   config :your_app, YourAppWeb.Endpoint,
     url: [host: host, port: 443],
